@@ -1,0 +1,83 @@
+nav {
+  background-color: #1E1329;
+  color: #FFFFFF;
+  margin: -5px;
+  padding: 20px;
+}
+
+#Home, #Library, #Help {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item {
+  padding: 20px;
+  border: 1px solid #5C4D70;
+  border-radius: 10px;
+}
+
+.nav-item:hover {
+  background-color: #5C4D70;
+}
+
+body {
+  background-color: #2A1B3D;
+}
+
+#search-card {
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/hd/e58a7394017781.5e73b4e38dfaf.gif');
+  background-size: 130%;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  border: 5px solid #5C4D70;
+  border-radius: 10px;
+}
+
+#creature-found {
+  background-color: white;
+  margin-top: 25px;
+  padding: 20px;
+  color: black;
+  text-align: left;
+}
+
+#monster-library {
+  background-image: url('https://img.goodfon.com/wallpaper/big/c/c4/okkultizm-koldovstvo-magiia-kniga-svecha-palochka.webp');
+  background-size: 100%;
+  max-width: 500px;
+	height: 300px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#monster-list {
+  background-image: url('https://i.pinimg.com/originals/7a/cb/9a/7acb9ac964cd047865603bd2fafaf31b.gif');
+  background-size: 100%;
+  max-width: 500px;
+	height: 250px;
+  margin: auto;
+  text-align: left;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  border: 5px solid black;
+  border-radius: 10px;
+	text-shadow: 3px 3px black; 
+}
+
+.two-column-list {
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  column-count: 2;
+  column-gap: 10px;
+}

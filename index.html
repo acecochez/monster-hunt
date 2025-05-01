@@ -1,0 +1,66 @@
+<!DOCTYPE html />
+<html>
+
+  <head>
+
+    <title>Monster Hunter</title>
+    <link rel="icon" type="image/jpg" href="https://static.vecteezy.com/system/resources/previews/013/001/178/non_2x/pixel-art-laptop-with-ace-of-spades-icon-open-laptop-icon-for-8bit-game-on-white-background-vector.jpg" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+
+  <body>
+
+    <main>
+
+      <nav>
+
+        <a id="Home" class="nav-item" href="index.html">Home</a>
+        <a id="Library" class="nav-item"  href="library.html" >Library</a>
+        <a id="Help" class="nav-item" >Help</a>
+
+      </nav>
+
+      <div id="search-card">
+
+        <h1>Monster Hunt</h1>
+
+        <h2>Search for a monster in the woods</h2>
+        <p>Enter the name of the monster you'd like to hunt</p>
+
+        <form id="search-form" role="search">
+          <input id="search-input" required></input>
+          <button id="search-button">Hunt!</button>
+        </form>
+
+        <div id="creature-found">
+          <p id="scare">Your hunt begins in a mysterious woodland...</p>
+
+					<ul>
+            <li id="creature-name"><b>Monster: </b></li>
+            <li id="creature-id"><b>ID: </b></li>
+            <li id="weight"><b>Weight: </b></li>
+            <li id="height"><b>Height: </b></li>
+            <li id="types"><b>Type: </b></li>
+            <li id="hp"><b>HP: </b></li>
+            <li id="attack"><b>Attack: </b></li>
+            <li id="defense"><b>Defense: </b></li>
+            <li id="special-attack"><b>Special Attack: </b></li>
+            <li id="special-defense"><b>Special Defense: </b></li>
+            <li id="speed"><b>Speed: </b></li>
+					</ul>
+
+        </div>
+
+      </div>
+      
+      <script src="./script.js"></script>
+
+    </main>
+
+  </body>
+
+</html>
