@@ -5,19 +5,25 @@ nav {
   padding: 20px;
 }
 
-#Home, #Library, #Help {
-  text-decoration: none;
-  color: white;
-}
-
 .nav-item {
   padding: 20px;
   border: 1px solid #5C4D70;
   border-radius: 10px;
+  text-decoration: none;
+  color: white;
 }
 
 .nav-item:hover {
   background-color: #5C4D70;
+}
+
+.left {
+	background-color: #5C4D70;
+	margin-left: 80%;
+}
+
+.left:hover {
+	background-color: #1E1329;
 }
 
 body {
@@ -27,7 +33,8 @@ body {
 #search-card {
   background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/hd/e58a7394017781.5e73b4e38dfaf.gif');
   background-size: 130%;
-  max-width: 500px;
+  max-width: 1000px;
+	height: 700px;
   margin: auto;
   text-align: center;
   color: white;
@@ -38,10 +45,9 @@ body {
 }
 
 #creature-found {
-  background-color: white;
   margin-top: 25px;
   padding: 20px;
-  color: black;
+  color: white;
   text-align: left;
 }
 
@@ -73,6 +79,47 @@ body {
 	text-shadow: 3px 3px black; 
 }
 
+#monster-map {
+  background-image: url('https://media.tenor.com/Bj21nyMYLYkAAAAM/psi-factor-sasquatch.gif');
+  background-size: 100%;
+  max-width: 500px;
+	height: 300px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+#monster-help {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a6ead233-6bc6-4b55-bcb4-cf0d5195efad/dfew8n9-9c7d37d4-595f-4440-81dc-f660c96a6a26.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E2ZWFkMjMzLTZiYzYtNGI1NS1iY2I0LWNmMGQ1MTk1ZWZhZFwvZGZldzhuOS05YzdkMzdkNC01OTVmLTQ0NDAtODFkYy1mNjYwYzk2YTZhMjYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4J1K_lcdBmV9alxJZ0dvSGi33bNeZ7YUfd9yxhzMSBg');
+  background-size: 100%;
+  max-width: 500px;
+	height: 250px;
+  margin: auto;
+  text-align: left;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  border: 5px solid black;
+  border-radius: 10px;
+	text-shadow: 3px 3px black; 
+}
+
+#info-page {
+  background-color: #5C4D70;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  border: 5px solid black;
+  border-radius: 10px; 
+}
+
 .two-column-list {
   -moz-column-count: 2;
   -moz-column-gap: 10px;
@@ -80,4 +127,8 @@ body {
   -webkit-column-gap: 10px;
   column-count: 2;
   column-gap: 10px;
+}
+
+#me {
+	max-width: 20%;
 }
